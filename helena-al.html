@@ -1,38 +1,652 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Helena AL Auto &amp; Home Insurance | Save $498 | Local Allstate Agent in 35080</title>
-  <meta name="description" content="Lowest auto & home insurance rates for Helena, AL (ZIP 35080). Local Allstate agent. Bundle & save. Fast, no‑pressure quotes.">
-  <link rel="canonical" href="https://operator.coffeyagencies.com/helena-al.html">
-  <link rel="stylesheet" href="css/main.css">
-  <script defer src="js/main.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Helena AL Auto & Home Insurance | Save $442 | Local Agent in 35080</title>
+<meta name="description" content="Helena AL insurance agent helping families save an average of $442 per year. Call today.">
+<style>
+        :root {
+            --allstate-blue: #003366;
+            --allstate-light-blue: #0066cc;
+            --success-green: #28a745;
+            --urgent-red: #dc3545;
+            --trust-gold: #ffc107;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+        
+        /* Header */
+        header {
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            height: 50px;
+        }
+        
+        .header-cta {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 40px 20px;
+        }
+        
+        .hero-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        
+        .hero-text h1 {
+            font-size: 2.5rem;
+            color: var(--allstate-blue);
+            margin-bottom: 15px;
+        }
+        
+        .savings-highlight {
+            color: var(--success-green);
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        
+        .hero-text h2 {
+            font-size: 1.5rem;
+            color: #555;
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+        
+        .trust-badges {
+            display: flex;
+            gap: 20px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        
+        .stars {
+            color: var(--trust-gold);
+        }
+        
+        /* Agent Photo Section */
+        .agent-photo {
+            text-align: center;
+        }
+        
+        .agent-photo img {
+            max-width: 300px;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .agent-info {
+            margin-top: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+            font-size: 1.1rem;
+        }
+        
+        .btn-primary {
+            background: var(--allstate-blue);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #002244;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: var(--allstate-blue);
+            border: 2px solid var(--allstate-blue);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--allstate-blue);
+            color: white;
+        }
+        
+        .btn-success {
+            background: var(--success-green);
+            color: white;
+        }
+        
+        .btn-success:hover {
+            background: #218838;
+        }
+        
+        /* Urgency Banner */
+        .urgency-banner {
+            background: var(--urgent-red);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-weight: bold;
+        }
+        
+        .countdown {
+            display: inline-block;
+            margin-left: 10px;
+            font-size: 1.2rem;
+        }
+        
+        /* Calculator Section */
+        .calculator-section {
+            background: #f8f9fa;
+            padding: 60px 20px;
+        }
+        
+        .calculator-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .calculator-container h3 {
+            text-align: center;
+            color: var(--allstate-blue);
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+        
+        #step1 {
+            text-align: center;
+        }
+        
+        .coverage-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .coverage-btn {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+        }
+        
+        .coverage-btn:hover {
+            background: var(--allstate-light-blue);
+            color: white;
+            border-color: var(--allstate-light-blue);
+        }
+        
+        .coverage-btn.bundle {
+            background: var(--success-green);
+            color: white;
+            border-color: var(--success-green);
+        }
+        
+        .coverage-btn.bundle:hover {
+            background: #218838;
+        }
+        
+        #step2 {
+            display: none;
+            text-align: center;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .savings-result {
+            background: #d4edda;
+            border: 2px solid var(--success-green);
+            border-radius: 8px;
+            padding: 30px;
+            margin: 20px 0;
+        }
+        
+        .savings-amount {
+            font-size: 3rem;
+            color: var(--success-green);
+            font-weight: bold;
+        }
+        
+        /* Local Content Section */
+        .local-content {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+            margin-top: 40px;
+        }
+        
+        .main-content h2 {
+            color: var(--allstate-blue);
+            margin-bottom: 20px;
+        }
+        
+        .main-content p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+        
+        .sidebar {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 8px;
+            height: fit-content;
+            position: sticky;
+            top: 100px;
+        }
+        
+        .sidebar h3 {
+            color: var(--allstate-blue);
+            margin-bottom: 20px;
+        }
+        
+        .coverage-list {
+            list-style: none;
+            margin: 20px 0;
+        }
+        
+        .coverage-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #dee2e6;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .coverage-list li:before {
+            content: "✓";
+            color: var(--success-green);
+            font-weight: bold;
+        }
+        
+        /* Form CTA Section */
+        .form-cta-section {
+            background: #e3f2fd;
+            padding: 60px 20px;
+        }
+        
+        .form-cta-container {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .form-cta-container h2 {
+            color: var(--allstate-blue);
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .form-cta-container p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #555;
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            background: #f8f9fa;
+            padding: 60px 20px;
+        }
+        
+        .testimonials-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .testimonials h2 {
+            text-align: center;
+            color: var(--allstate-blue);
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .testimonial-card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        
+        .testimonial-author {
+            font-weight: bold;
+            color: var(--allstate-blue);
+        }
+        
+        .testimonial-location {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        /* FAQ Section */
+        .faq-section {
+            padding: 60px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-section h2 {
+            text-align: center;
+            color: var(--allstate-blue);
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+        
+        .faq-item {
+            margin-bottom: 20px;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            padding: 20px;
+            background: #f8f9fa;
+            cursor: pointer;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-question:hover {
+            background: #e9ecef;
+        }
+        
+        .faq-answer {
+            padding: 20px;
+            display: none;
+            background: white;
+        }
+        
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+        
+        .faq-toggle {
+            font-size: 1.5rem;
+            color: var(--allstate-blue);
+        }
+        
+        /* Footer CTA */
+        .footer-cta {
+            background: var(--allstate-blue);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        
+        .footer-cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .footer-cta p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        
+        /* Mobile Sticky CTA */
+        .mobile-sticky-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--allstate-blue);
+            padding: 15px;
+            text-align: center;
+            z-index: 1001;
+            box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+        }
+        
+        /* Exit Intent Popup */
+        .exit-popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .exit-popup-content {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+            position: relative;
+        }
+        
+        .exit-popup-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 30px;
+            cursor: pointer;
+            color: #999;
+        }
+        
+        .exit-popup h2 {
+            color: var(--allstate-blue);
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        
+        .exit-popup p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #555;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero-text h1 {
+                font-size: 2rem;
+            }
+            
+            .savings-highlight {
+                font-size: 2.5rem;
+            }
+            
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .sidebar {
+                position: static;
+            }
+            
+            .mobile-sticky-cta {
+                display: block;
+            }
+            
+            .header-cta .btn-secondary {
+                display: none;
+            }
+            
+            .coverage-buttons {
+                flex-direction: column;
+            }
+            
+            .coverage-btn {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="announce-bar">Tired of high rates or denied coverage? We can help.</div>
-  <header>
-    <img src="assets/Coffey_Logo_Color.jpg" alt="Coffey Agencies Logo">
-  </header>
+<header>
+    <div class="header-content">
+        <img src="Coffey_Logo_Color.jpg" alt="Coffey Insurance Agency" class="logo">
+        <div class="header-cta">
+            <a href="tel:+12564076008" class="btn btn-secondary">📞 (256) 407-6008</a>
+            <a href="#quote-form" class="btn btn-primary">Get Free Quote</a>
+        </div>
+    </div>
+</header>
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Helena AL Auto & Home Insurance | Local Agent</h1>
+            <h2>Families save an average of <span class="savings-highlight">$442/Year</span></h2>
+        </div>
+    </div>
+</section>
+<section class="local-content">
+    <div class="content-grid">
+        <div class="main-content">
+            <h2>Property Risks in Helena</h2>
+            <p>Alabama's severe weather patterns, including frequent tornadoes and hailstorms, have made comprehensive coverage essential. With Helena's rapid development and rising property values, ensuring adequate dwelling limits is critical. We use local construction costs and materials pricing specific to Shelby County to set accurate replacement values.</p>
+            <h3>Community Lifestyle</h3>
+            <p>Helena residents enjoy Alabama's unique blend of Southern hospitality and modern amenities. From high school football Fridays to growing tech corridors, your lifestyle demands flexible coverage. Whether you're commuting to Huntsville's Research Park, Birmingham's medical district, or working remotely, we tailor protection to match your life.</p>
+            <h3>Weather & Flood Considerations</h3>
+            <p>Alabama's weather can turn severe quickly. From spring tornadoes to summer thunderstorms bringing flash flooding, Helena faces unique risks. Properties near Buck Creek or in low-lying areas need special attention. We analyze FEMA flood maps and local drainage patterns to ensure you're fully protected.</p>
+            <h3>Recommended Coverage Options</h3>
+            <ul style="margin-left:20px;"><li><strong>Tornado & Hail Deductible Options:</strong> Alabama sees more tornadoes per square mile than most states. We help you choose between percentage and flat deductibles.</li><li><strong>Flood & Water Backup Coverage:</strong> Critical for Alabama's clay soil areas where drainage is poor.</li><li><strong>Equipment Breakdown Protection:</strong> For your HVAC battling Alabama's humid summers.</li><li><strong>Personal Property Replacement:</strong> Full coverage for storm damage to belongings.</li></ul>
+            <h3>State Minimums vs. Recommended</h3>
+            <p>Alabama requires minimum liability coverage of 25/50/25. However, with medical costs and lawsuit risks, most Helena families choose 100/300/100 or higher. We also recommend uninsured motorist coverage, as Alabama has one of the highest rates of uninsured drivers in the nation.</p>
+            <h3>Neighborhoods We Serve in Helena</h3>
+            <ul style="margin-left:20px;"><li>Hillsboro</li><li>Lake Davidson area</li><li>Old Town Helena</li></ul>
+        </div>
+    </div>
+</section>
+<section class="form-cta-section" id="quote-form">
+    <iframe src="https://agent.jotform.com/01977f5bbae37c5e8549a0e66a3b73f8a66e" width="100%" height="500"></iframe>
+</section>
+<section class="testimonials">
+    <div class="testimonials-container">
+        <h2>Recent Reviews</h2>
+        <div class="testimonial-grid">
+            
+        <div class="testimonial-card">
+            <p class="testimonial-text">"Great"</p>
+            <div class="testimonial-author">Ricky L.</div>
+            <div class="testimonial-location"></div>
+            <div class="stars" style="margin-top: 10px;">⭐⭐⭐⭐⭐</div>
+        </div>
+        
 
-  <main class="container">
-    <img src="assets/agent_photo.jpg" class="agent-photo" alt="Agent Cody Coffey">
-    <h1>Your Local Allstate Agent in Helena, AL</h1>
-    <p>Serving <strong>Shelby County</strong> and the surrounding communities. Call us at <a href="tel:256-407-6008">256-407-6008</a>.</p>
+        <div class="testimonial-card">
+            <p class="testimonial-text">"It has been good rates and nice people"</p>
+            <div class="testimonial-author">Ronald S.</div>
+            <div class="testimonial-location"></div>
+            <div class="stars" style="margin-top: 10px;">⭐⭐⭐⭐⭐</div>
+        </div>
+        
 
-    <a href="#quote-form" class="btn">Get My Quote</a>
-
-    <blockquote class="review">“Saved us hundreds on our policies.”<cite>— Keith De Gannes</cite></blockquote>
-
-    <small class="disclaimer">Alabama liability minimums are 25/50/25. Coverage availability and limits vary by policy and state. All quotes subject to underwriting guidelines.</small>
-  </main>
-
-  <div id="quote-modal" class="modal">
-    <span class="close">&times;</span>
-    <iframe title="Insurance Quote Form" src="https://form.jotform.com/251143704659054?city=Helena&state=AL&county=Shelby County" loading="lazy"></iframe>
-  </div>
-
-  <footer>
-    <p>&copy; 2025 Coffey Agencies. All Rights Reserved.</p>
-  </footer>
+        <div class="testimonial-card">
+            <p class="testimonial-text">"Very friendly and helpful"</p>
+            <div class="testimonial-author">Richard S.</div>
+            <div class="testimonial-location"></div>
+            <div class="stars" style="margin-top: 10px;">⭐⭐⭐⭐⭐</div>
+        </div>
+        
+        </div>
+    </div>
+</section>
+<section class="faq-section">
+    <h2>Frequently Asked Questions - Helena AL</h2>
+    <div class="faq-item"><div class="faq-question" onclick="toggleFAQ(this)">Do I need flood insurance in Helena, AL?<span class="faq-toggle">+</span></div><div class="faq-answer"><p>It depends on your location. Alabama's clay soil and frequent heavy rains create flood risks even outside designated flood zones. Properties near Buck Creek should strongly consider coverage. Standard homeowners policies exclude flood damage.</p></div></div>
+    <div class="faq-item"><div class="faq-question" onclick="toggleFAQ(this)">What factors affect my insurance rates in Helena?<span class="faq-toggle">+</span></div><div class="faq-answer"><ul style="margin-left:20px;"><li>Claims history & credit</li><li>Distance from volunteer fire departments (common in Alabama)</li><li>Tornado risk rating for your area</li><li>Proximity to major roads</li></ul></div></div>
+</section>
+<footer class="footer-cta">
+    <h2>Ready to save?</h2>
+    <p>Contact us today for your free quote.</p>
+    <a href="#quote-form" class="btn btn-primary" style="background:white;color:var(--allstate-blue);">Request Callback</a>
+</footer>
 </body>
 </html>
