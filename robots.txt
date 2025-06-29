@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /*?form=*
+Allow: /
+
+# Prevent endless parameters from being crawled; canonical tags handle de‑dupe
+Sitemap: https://operator.coffeyagencies.com/sitemap.xml
