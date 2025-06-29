@@ -1,14 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://operator.coffeyagencies.com/</loc></url>
-<url><loc>https://operator.coffeyagencies.com/rome-ga.html</loc></url>
-<url><loc>https://operator.coffeyagencies.com/alpharetta-ga.html</loc></url>
-<url><loc>https://operator.coffeyagencies.com/helena-al.html</loc></url>
-<url><loc>https://operator.coffeyagencies.com/hoover-al.html</loc></url>
-<url><loc>https://operator.coffeyagencies.com/madison-al.html</loc></url>
-<url><loc>https://operator.coffeyagencies.com/mountain-brook-al.html</loc></url>
-<url><loc>https://operator.coffeyagencies.com/owens-cross-roads-al.html</loc></url>
-<url><loc>https://operator.coffeyagencies.com/peachtree-city-ga.html</loc></url>
-<url><loc>https://operator.coffeyagencies.com/suwanee-ga.html</loc></url>
-<url><loc>https://operator.coffeyagencies.com/woodstock-ga.html</loc></url>
+  <url>
+    <loc>https://operator.coffeyagencies.com/index.html</loc>
+    <lastmod>2025-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://operator.coffeyagencies.com/rome-ga.html</loc>
+    <lastmod>2025-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://operator.coffeyagencies.com/mountain-brook-al.html</loc>
+    <lastmod>2025-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://operator.coffeyagencies.com/alpharetta-ga.html</loc>
+    <lastmod>2025-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://operator.coffeyagencies.com/madison-al.html</loc>
+    <lastmod>2025-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://operator.coffeyagencies.com/peachtree-city-ga.html</loc>
+    <lastmod>2025-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://operator.coffeyagencies.com/suwanee-ga.html</loc>
+    <lastmod>2025-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://operator.coffeyagencies.com/woodstock-ga.html</loc>
+    <lastmod>2025-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://operator.coffeyagencies.com/helena-al.html</loc>
+    <lastmod>2025-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://operator.coffeyagencies.com/hoover-al.html</loc>
+    <lastmod>2025-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://operator.coffeyagencies.com/owens-cross-roads-al.html</loc>
+    <lastmod>2025-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
