@@ -1,6 +1,65 @@
-User-agent: *
-Disallow: /*?form=*
-Allow: /
+# Robots.txt for operator.coffeyagencies.com
+# Last updated: 2025-01-02
+# Fixed: Removed blocking of form parameters to allow city pages with ?form= to be indexed
 
-# Prevent endless parameters from being crawled; canonical tags handle de‑dupe
+# Default crawler rules
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /~*
+Disallow: /.git/
+Disallow: /.env
+Disallow: /node_modules/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*.log$
+
+# Allow city pages with form parameters
+Allow: /*-al.html?form=*
+Allow: /*-ga.html?form=*
+Allow: /*.html?form=*
+
+# Block tracking parameters (but not form parameters)
+Disallow: /*?utm_*
+Disallow: /*?gclid=*
+Disallow: /*?fbclid=*
+Disallow: /*?mc_*
+Disallow: /*?hsCtaTracking=*
+Disallow: /*?ref=*
+Disallow: /*?source=*
+Disallow: /*?campaign=*
+
+# Block specific file types from indexing
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+Disallow: /*.xls$
+Disallow: /*.xlsx$
+Disallow: /*.ppt$
+Disallow: /*.pptx$
+Disallow: /*.zip$
+
+# Sitemap location
 Sitemap: https://operator.coffeyagencies.com/sitemap.xml
+
+# Crawler delay (optional - helps prevent server overload)
+Crawl-delay: 1
+
+# Specific bot rules (optional - uncomment if needed)
+# User-agent: GPTBot
+# Disallow: /
+
+# User-agent: ChatGPT-User
+# Disallow: /
+
+# User-agent: CCBot
+# Disallow: /
+
+# User-agent: anthropic-ai
+# Disallow: /
+
+# User-agent: Claude-Web
+# Disallow: /
