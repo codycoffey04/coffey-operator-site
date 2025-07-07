@@ -7,28 +7,6 @@
 <title>Owens Cross Roads, AL Insurance | Coffey Agencies</title>
 <meta content="Trusted agent serving Owens Cross Roads &amp; Madison County. Auto, home &amp; umbrella coverage. Call: (256) 407-6008" name="description"/>
 <style>
-
-/* === HEADER (GLOBAL) ==================================== */
-header{
-  background:#fff;
-  box-shadow:0 2px 4px rgba(0,0,0,.1);
-  position:sticky;top:0;z-index:1000;width:100%;
-}
-.header-content{
-  max-width:1200px;margin:0 auto;
-  padding:15px 20px;
-  display:flex;justify-content:space-between;align-items:center;
-}
-.header-info{text-align:right}
-.header-info p{margin:5px 0;color:#666}
-.header-info a{color:var(--allstate-blue);text-decoration:none;font-weight:bold}
-.logo{height:60px;max-width:200px;width:auto;display:block}
-/* Mobile */
-@media(max-width:768px){
-  .header-content{flex-direction:column;text-align:center}
-  .header-info{text-align:right}
-}
-/* =========================================================*/
         :root {
             --allstate-blue: #003366;
             --allstate-light-blue: #0066cc;
@@ -52,27 +30,33 @@ header{
         
         /* Header */
         header {
-            background: #fff;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
         
         .header-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 15px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
         
         .logo {
-            height: 50px;
-        }
+    height: 60px;
+    width: auto;
+    max-width: 200px;
+    display: block;
+}
         
-        .header-info{text-align:right}
+        .header-info {
+    text-align: right;
+}
         
         /* Hero Section */
         .hero {
@@ -585,7 +569,17 @@ header{
                 width: 100%;
             }
         }
-    </style>
+    
+.header-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* LOGO */
+.logo{height:60px;max-width:200px;width:auto;display:block}
+
+.local-content,.section-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+</style>
 <link href="https://operator.coffeyagencies.com/owens-cross-roads-al.html" rel="canonical"/>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -681,7 +675,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <header>
 <div class="header-content">
 <picture>
-<source srcset="Coffey_Logo_Color.webp 1x, Coffey_Logo_Color@2x.webp 2x" type="image/webp"/>
+<source srcset="/images/logo.webp" type="image/webp">
 <img alt="Coffey Insurance Agency" class="logo" height="60" loading="lazy" src="/images/logo.png" width="200"/>
 </picture>
 <div class="header-info">
@@ -697,6 +691,9 @@ document.addEventListener('DOMContentLoaded', function() {
 <h2>Families save an average of <span class="savings-highlight">$465/Year</span></h2>
 </div>
 </div>
+    </div>
+</section><section class="service-notice-section" style="background:#e3f2fd; padding:30px 20px; text-align:center; border-bottom:1px solid #dee2e6;">
+    <div class="section-wrap"><p class="service-notice">Serving Owens Cross Roads, AL customers from our Centre, AL office.</p>    </div>
 </section>
 <section class="local-content">
 <div class="content-grid">
@@ -715,9 +712,11 @@ document.addEventListener('DOMContentLoaded', function() {
 <ul style="margin-left:20px;"><li>Hampton Cove</li><li>Big Cove</li><li>McMullen Cove</li><li>Chase Plantation</li></ul>
 </div>
 </div>
+    </div>
 </section>
 <section class="form-cta-section" id="quote-form">
 <iframe height="500" src="https://form.jotform.com/251143704659054" width="100%"></iframe>
+    </div>
 </section>
 <section class="testimonials">
 <div class="testimonials-container">
@@ -743,11 +742,13 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 </div>
 </div>
+    </div>
 </section>
 <section class="faq-section">
 <h2>Frequently Asked Questions - Owens Cross Roads AL</h2>
 <div class="faq-item"><div class="faq-question" onclick="toggleFAQ(this)">Do I need flood insurance in Owens Cross Roads, AL?<span class="faq-toggle">+</span></div><div class="faq-answer"><p>It depends on your location. Alabama's clay soil and frequent heavy rains create flood risks even outside designated flood zones. Properties near Flint River should strongly consider coverage. Standard homeowners policies exclude flood damage.</p></div></div>
 <div class="faq-item"><div class="faq-question" onclick="toggleFAQ(this)">What factors affect my insurance rates in Owens Cross Roads?<span class="faq-toggle">+</span></div><div class="faq-answer"><ul style="margin-left:20px;"><li>Claims history &amp; credit</li><li>Distance from volunteer fire departments (common in Alabama)</li><li>Tornado risk rating for your area</li><li>Proximity to major roads</li></ul></div></div>
+    </div>
 </section>
 <footer class="footer-cta">
 <h2>Ready to save?</h2>
