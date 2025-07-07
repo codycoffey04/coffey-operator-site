@@ -12,6 +12,28 @@
 <meta content="https://operator.coffeyagencies.com/" property="og:url"/>
 <meta content="https://operator.coffeyagencies.com/images/coffey-insurance.jpg" property="og:image"/>
 <style>
+
+/* === HEADER (GLOBAL) ==================================== */
+header{
+  background:#fff;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);
+  position:sticky;top:0;z-index:1000;width:100%;
+}
+.header-content{
+  max-width:1200px;margin:0 auto;
+  padding:15px 20px;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.header-info{text-align:right}
+.header-info p{margin:5px 0;color:#666}
+.header-info a{color:var(--allstate-blue);text-decoration:none;font-weight:bold}
+.logo{height:60px;max-width:200px;width:auto;display:block}
+/* Mobile */
+@media(max-width:768px){
+  .header-content{flex-direction:column;text-align:center}
+  .header-info{text-align:right}
+}
+/* =========================================================*/
         :root {
             --allstate-blue: #003366;
             --allstate-light-blue: #0066cc;
@@ -52,11 +74,7 @@
             height: 60px;
         }
         
-        .header-info {
-    display: block;
-    text-align: right;
-}
-
+        .header-info{text-align:right}
         
         .header-info p {
             margin: 5px 0;
@@ -350,36 +368,9 @@
                 text-align: center;
             }
             
-            .header-info {
-    display: block;
-    text-align: right;
-}
-
+            .header-info{text-align:right}
         }
-    
-header {
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    width: 100%;
-}
-.header-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.logo {
-    height: 60px;
-    width: auto;
-    display: block;
-    max-width: 200px;
-}
-</style>
+    </style>
 <link href="https://operator.coffeyagencies.com/index.html" rel="canonical"/>
 <meta content="index, follow" name="robots"/>
 <link href="/sitemap.xml" rel="sitemap" type="application/xml"/>
@@ -430,7 +421,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="header-content">
 <picture>
 <source srcset="Coffey_Logo_Color.webp 1x, Coffey_Logo_Color@2x.webp 2x" type="image/webp"/>
-<img alt="Coffey Insurance Agency" class="logo" height="60" loading="lazy" src="Coffey_Logo_Color.jpg" width="200"/>
+<img alt="Coffey Insurance Agency" class="logo" height="60" loading="lazy" src="/images/logo.png" width="200"/>
 </picture>
 <div class="header-info">
 <p><strong>Georgia:</strong> <a href="tel:+17067806554">(706) 780-6554</a></p>
@@ -457,6 +448,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 </div>
 </section>
+
 <!-- Why Local Section -->
 <section class="why-local">
 <div class="container">
