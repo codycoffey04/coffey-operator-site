@@ -53,8 +53,10 @@
         }
         
         .header-info {
-            text-align: right;
-        }
+    display: block;
+    text-align: right;
+}
+
         
         .header-info p {
             margin: 5px 0;
@@ -349,11 +351,35 @@
             }
             
             .header-info {
-                margin-top: 20px;
-                text-align: center;
-            }
+    display: block;
+    text-align: right;
+}
+
         }
-    </style>
+    
+header {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height: 60px;
+    width: auto;
+    display: block;
+    max-width: 200px;
+}
+</style>
 <link href="https://operator.coffeyagencies.com/index.html" rel="canonical"/>
 <meta content="index, follow" name="robots"/>
 <link href="/sitemap.xml" rel="sitemap" type="application/xml"/>
@@ -431,7 +457,6 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 </div>
 </section>
-
 <!-- Why Local Section -->
 <section class="why-local">
 <div class="container">
