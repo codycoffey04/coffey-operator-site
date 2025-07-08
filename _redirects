@@ -1,3 +1,4 @@
+# Existing redirects (keep these)
 /rome-complete-trap-page.html /rome-ga.html 301
 /alpharetta-trap-page.html /alpharetta-ga.html 301
 /helena-trap-page.html /helena-al.html 301
@@ -8,3 +9,15 @@
 /peachtree-city-page.html /peachtree-city-ga.html 301
 /suwanee-trap-page.html /suwanee-ga.html 301
 /woodstock-page.html /woodstock-ga.html 301
+
+# New redirects for main site ZIP finder
+/rome-georgia-insurance/ /rome-ga.html 301
+/alpharetta-georgia-insurance/ /alpharetta-ga.html 301
+/suwanee-georgia-insurance/ /suwanee-ga.html 301
+/woodstock-georgia-insurance/ /woodstock-ga.html 301
+/peachtree-city-georgia-insurance/ /peachtree-city-ga.html 301
+/mountain-brook-alabama-insurance/ /mountain-brook-al.html 301
+/madison-alabama-insurance/ /madison-al.html 301
+/helena-alabama-insurance/ /helena-al.html 301
+/hoover-alabama-insurance/ /hoover-al.html 301
+/owens-cross-roads-alabama-insurance/ /owens-cross-roads-al.html 301
