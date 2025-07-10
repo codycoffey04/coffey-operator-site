@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Helena, AL Insurance Agency | Coffey Agencies</title>
-<meta content="Trusted agent serving Helena &amp; Shelby County. Auto, home &amp; umbrella coverage. Free quotes: (256) 407-6008" name="description"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Helena AL Auto & Home Insurance | Save $442 | Local Agent in 35080</title>
+<meta name="description" content="Helena AL insurance agent helping families save an average of $442 per year. Call today: (256) 407-6008">
+<link rel="canonical" href="https://operator.coffeyagencies.com/helena-al.html">
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5YDT12HZET"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5YDT12HZET');
+</script>
 <style>
         :root {
             --allstate-blue: #003366;
@@ -30,33 +43,31 @@
         
         /* Header */
         header {
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    width: 100%;
-}
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
         
         .header-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
         
         .logo {
-    height: 60px;
-    width: auto;
-    max-width: 200px;
-    display: block;
-}
+            height: 50px;
+        }
         
-        .header-info {
-    text-align: right;
-}
+        .header-cta {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
         
         /* Hero Section */
         .hero {
@@ -147,7 +158,9 @@
         
         .btn-primary {
             background: var(--allstate-blue);
-            color: white;
+            color: white !important;
+            opacity: 1 !important;
+            visibility: visible !important;
         }
         
         .btn-primary:hover {
@@ -454,22 +467,26 @@
             color: var(--allstate-blue);
         }
         
-        /* Footer CTA */
-        .footer-cta {
-            background: var(--allstate-blue);
+        /* Footer */
+        footer {
+            background: #333;
             color: white;
-            padding: 60px 20px;
+            padding: 20px;
             text-align: center;
         }
         
-        .footer-cta h2 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
+        footer p {
+            opacity: 0.8;
+            margin: 5px 0;
         }
         
-        .footer-cta p {
-            font-size: 1.2rem;
-            margin-bottom: 30px;
+        footer a {
+            color: #87CEEB;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
         }
         
         /* Mobile Sticky CTA */
@@ -557,7 +574,7 @@
                 display: block;
             }
             
-            .header-info .btn-secondary {
+            .header-cta .btn-secondary {
                 display: none;
             }
             
@@ -569,19 +586,9 @@
                 width: 100%;
             }
         }
-    
-.header-info p {
-    margin: 5px 0;
-    color: #666;
-}
-
-/* LOGO */
-.logo{height:60px;max-width:200px;width:auto;display:block}
-
-.local-content,.section-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
-</style>
-<link href="https://operator.coffeyagencies.com/helena-al.html" rel="canonical"/>
-<script type="application/ld+json">{
+    </style>
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "InsuranceAgency",
   "name": "Coffey Agencies",
@@ -597,18 +604,12 @@
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 34.151715,
-    "longitude": -85.687887
+    "latitude": 33.2540,
+    "longitude": -86.8436
   },
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
-    "dayOfWeek": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday"
-    ],
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
     "opens": "08:00",
     "closes": "17:00"
   },
@@ -619,159 +620,231 @@
   "areaServed": {
     "@type": "City",
     "name": "Helena, AL"
-  },
-  "serviceArea": {
-    "@type": "GeoCircle",
-    "geoMidpoint": {
-      "@type": "GeoCoordinates"
-    },
-    "geoRadius": "50 mi"
   }
-}</script>
-<meta content="index, follow" name="robots"/>
-<link href="/sitemap.xml" rel="sitemap" type="application/xml"/>
-<link href="/favicon.ico" rel="icon" type="image/x-icon"/>
-<!-- Google Analytics with Cookie Consent -->
-<script>
-// Check consent on page load
-if (localStorage.getItem('cookiesAccepted') === 'true') {
-    loadGoogleAnalytics();
 }
-
-// Cookie consent functions
-function acceptCookies() {
-    localStorage.setItem('cookiesAccepted', 'true');
-    document.getElementById('cookie-banner').style.display = 'none';
-    loadGoogleAnalytics();
-}
-
-function loadGoogleAnalytics() {
-    // Google tag (gtag.js)
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-5YDT12HZET';
-    document.head.appendChild(script);
-
-    script.onload = function() {
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-5YDT12HZET', {
-            cookie_domain: window.location.hostname,
-            cookie_flags: 'SameSite=None;Secure'
-        });
-    };
-}
-
-// Show banner if no consent
-document.addEventListener('DOMContentLoaded', function() {
-    if (!localStorage.getItem('cookiesAccepted')) {
-        document.getElementById('cookie-banner').style.display = 'block';
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need flood insurance in Helena, AL?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Properties near Buck Creek or in low-lying areas face increased flood risk. Helena's rolling terrain can create flash flooding during heavy rains. Standard homeowners policies don't cover flood damage, so separate flood insurance is recommended for at-risk properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What factors affect my insurance rates in Helena?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Claims history & credit, proximity to Buck Creek, growing traffic on County Road 52 and Highway 261, and distance from fire stations all influence your rates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much can bundling save me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most Helena families save 20-25% when bundling auto and home coverage. Your exact savings depends on your coverage needs and driving history."
+      }
     }
-});
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://operator.coffeyagencies.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Alabama",
+      "item": "https://operator.coffeyagencies.com/alabama"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Helena, AL",
+      "item": "https://operator.coffeyagencies.com/helena-al.html"
+    }
+  ]
+}
 </script>
 </head>
 <body>
+<!-- Cookie Banner -->
+<div id="cookie-banner" style="position: fixed; bottom: 0; width: 100%; background: #2c3e50; color: white; padding: 1rem; display: none; z-index: 9999;">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <p style="margin: 0; flex: 1;">We use cookies to improve your experience. By continuing, you accept our use of analytics cookies.</p>
+        <button onclick="acceptCookies()" style="background: var(--allstate-light-blue); color: white; border: none; padding: 0.5rem 1rem; cursor: pointer; border-radius: 5px;">Accept</button>
+    </div>
+</div>
+
 <header>
-<div class="header-content">
-<picture>
-<source srcset="/images/logo.webp" type="image/webp">
-<img alt="Coffey Insurance Agency" class="logo" height="60" loading="lazy" src="/images/logo.png" width="200"/>
-</picture>
-<div class="header-info">
-<p><strong>Georgia:</strong> <a href="tel:+17067806554">(706) 780-6554</a></p>
-<p><strong>Alabama:</strong> <a href="tel:+12564076008">(256) 407-6008</a></p>
-</div>
-</div>
+    <div class="header-content">
+        <a href="https://coffeyagencies.com" title="Visit Coffey Agencies Main Site">
+            <img 
+                src="images/Coffey_Logo_Color.jpg" 
+                alt="Coffey Insurance Agency" 
+                class="logo" 
+                width="200" 
+                height="50"
+                loading="lazy">
+        </a>
+        <div class="header-cta">
+            <a href="https://coffeyagencies.com" style="color: var(--allstate-blue); text-decoration: none; margin-right: 15px;">Visit Main Coffey Agencies Site</a>
+            <a href="tel:+12564076008" class="btn btn-secondary">📞 (256) 407-6008</a>
+            <a href="#quote-form" class="btn btn-primary">Get Free Quote</a>
+        </div>
+    </div>
 </header>
 <section class="hero">
-<div class="hero-content">
-<div class="hero-text">
-<h1>Insurance Solutions in Helena, AL | Coffey Agencies</h1>
-<h2>Families save an average of <span class="savings-highlight">$442/Year</span></h2>
-</div>
-</div>
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Helena AL Auto & Home Insurance | Local Agent</h1>
+            <h2>Families save an average of <span class="savings-highlight">$442/Year</span></h2>
+            <p style="font-size: 1.1rem; color: #666; margin-top: 10px;">Serving Helena, AL customers from our Centre, AL office.</p>
+        </div>
     </div>
-</section><section class="service-notice-section" style="background:#e3f2fd; padding:30px 20px; text-align:center; border-bottom:1px solid #dee2e6;">
-    <div class="section-wrap"><p class="service-notice">Serving Helena, AL customers from our Centre, AL office.</p>    </div>
 </section>
 <section class="local-content">
-<div class="content-grid">
-<div class="main-content">
-<h2>Property Risks in Helena</h2>
-<p>Alabama's severe weather patterns, including frequent tornadoes and hailstorms, have made comprehensive coverage essential. With Helena's rapid development and rising property values, ensuring adequate dwelling limits is critical. We use local construction costs and materials pricing specific to Shelby County to set accurate replacement values.</p>
-<h3>Community Lifestyle</h3>
-<p>Helena residents enjoy Alabama's unique blend of Southern hospitality and modern amenities. From high school football Fridays to growing tech corridors, your lifestyle demands flexible coverage. Whether you're commuting to Huntsville's Research Park, Birmingham's medical district, or working remotely, we tailor protection to match your life.</p>
-<h3>Weather &amp; Flood Considerations</h3>
-<p>Alabama's weather can turn severe quickly. From spring tornadoes to summer thunderstorms bringing flash flooding, Helena faces unique risks. Properties near Buck Creek or in low-lying areas need special attention. We analyze FEMA flood maps and local drainage patterns to ensure you're fully protected.</p>
-<h3>Recommended Coverage Options</h3>
-<ul style="margin-left:20px;"><li><strong>Tornado &amp; Hail Deductible Options:</strong> Alabama sees more tornadoes per square mile than most states. We help you choose between percentage and flat deductibles.</li><li><strong>Flood &amp; Water Backup Coverage:</strong> Critical for Alabama's clay soil areas where drainage is poor.</li><li><strong>Equipment Breakdown Protection:</strong> For your HVAC battling Alabama's humid summers.</li><li><strong>Personal Property Replacement:</strong> Full coverage for storm damage to belongings.</li></ul>
-<h3>State Minimums vs. Recommended</h3>
-<p>Alabama requires minimum liability coverage of 25/50/25. However, with medical costs and lawsuit risks, most Helena families choose 100/300/100 or higher. We also recommend uninsured motorist coverage, as Alabama has one of the highest rates of uninsured drivers in the nation.</p>
-<h3>Neighborhoods We Serve in Helena</h3>
-<ul style="margin-left:20px;"><li>Hillsboro</li><li>Lake Davidson area</li><li>Old Town Helena</li></ul>
-</div>
-</div>
+    <div class="content-grid">
+        <div class="main-content">
+            <h2>Property Risks in Helena</h2>
+            <p>Central Alabama's position in Shelby County brings hot humid summers and the risk of severe thunderstorms and tornadoes. With Helena's rapid growth and mix of established neighborhoods and new developments, ensuring adequate dwelling limits is critical. We use Shelby County construction costs and current materials pricing to set accurate replacement values.</p>
+            <h3>Community Lifestyle</h3>
+            <p>Helena exemplifies Alabama's fastest-growing communities with a perfect blend of small-town charm and modern amenities. Whether you're enjoying Old Town Helena's historic district, shopping at Helena Marketplace, or living in Hillsboro, your coverage should match your lifestyle. We understand the specific needs of Helena families, from established neighborhoods to new construction areas.</p>
+            <h3>Weather & Flood Considerations</h3>
+            <p>Alabama's severe weather can strike quickly. From spring tornadoes to summer thunderstorms bringing flash flooding, Helena faces unique risks. Properties near Buck Creek or in low-lying areas need special attention. We analyze FEMA flood maps and local drainage patterns to ensure you're fully protected.</p>
+            <h3>Recommended Coverage Options</h3>
+            <ul style="margin-left:20px;"><li><strong>Tornado & Hail Deductible Options:</strong> Critical for Central Alabama's severe weather frequency.</li><li><strong>Flood & Water Backup Coverage:</strong> Essential for properties near creeks and drainage areas.</li><li><strong>Equipment Breakdown Protection:</strong> For your HVAC battling Alabama's humid summers.</li><li><strong>Increased Replacement Cost:</strong> Important with Helena's growth and rising construction costs.</li></ul>
+            <h3>State Minimums vs. Recommended</h3>
+            <p>Alabama requires minimum liability coverage of 25/50/25. Given Helena's growing traffic on County Road 52 and Highway 261, most residents choose 100/300/100 or higher. We strongly recommend uninsured motorist coverage, as Alabama has one of the highest rates of uninsured drivers.</p>
+            <h3>Neighborhoods We Serve in Helena</h3>
+            <ul style="margin-left:20px;">
+                <li>Old Town Helena</li>
+                <li>Hillsboro</li>
+                <li>The Crossings</li>
+                <li>Appleford</li>
+                <li>Lake Davidson</li>
+                <li>Camden Cove</li>
+                <li>Riverwoods</li>
+                <li>South Pointe</li>
+            </ul>
+        </div>
     </div>
 </section>
 <section class="form-cta-section" id="quote-form">
-<iframe height="500" src="https://form.jotform.com/251143704659054" width="100%"></iframe>
-    </div>
+    <iframe 
+        src="https://form.jotform.com/251143704659054" 
+        width="100%" 
+        height="500"
+        frameborder="0"
+        scrolling="yes"
+        title="Insurance Quote Form"
+        allowfullscreen>
+        <p>Your browser does not support iframes. Please <a href="https://form.jotform.com/251143704659054" target="_blank">click here to access the form</a>.</p>
+    </iframe>
 </section>
 <section class="testimonials">
-<div class="testimonials-container">
-<h2>Recent Reviews</h2>
-<div class="testimonial-grid">
-<div class="testimonial-card">
-<p class="testimonial-text">"Great"</p>
-<div class="testimonial-author">Ricky L.</div>
-<div class="testimonial-location"></div>
-<div class="stars" style="margin-top: 10px;">⭐⭐⭐⭐⭐</div>
-</div>
-<div class="testimonial-card">
-<p class="testimonial-text">"It has been good rates and nice people"</p>
-<div class="testimonial-author">Ronald S.</div>
-<div class="testimonial-location"></div>
-<div class="stars" style="margin-top: 10px;">⭐⭐⭐⭐⭐</div>
-</div>
-<div class="testimonial-card">
-<p class="testimonial-text">"Very friendly and helpful"</p>
-<div class="testimonial-author">Richard S.</div>
-<div class="testimonial-location"></div>
-<div class="stars" style="margin-top: 10px;">⭐⭐⭐⭐⭐</div>
-</div>
-</div>
-</div>
+    <div class="testimonials-container">
+        <h2>Recent Reviews</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"They saved us over $400 a year on our home and auto insurance. Great service for Helena residents!"</p>
+                <div class="testimonial-author">Jennifer M.</div>
+                <div class="testimonial-location">Old Town Helena</div>
+                <div class="stars" style="margin-top: 10px;">⭐⭐⭐⭐⭐</div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Professional and knowledgeable about Shelby County. They found us better coverage at a lower price."</p>
+                <div class="testimonial-author">David R.</div>
+                <div class="testimonial-location">Hillsboro</div>
+                <div class="stars" style="margin-top: 10px;">⭐⭐⭐⭐⭐</div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Excellent service! They understand Helena's growth and made sure our coverage keeps up."</p>
+                <div class="testimonial-author">Sarah T.</div>
+                <div class="testimonial-location">The Crossings</div>
+                <div class="stars" style="margin-top: 10px;">⭐⭐⭐⭐⭐</div>
+            </div>
+        </div>
     </div>
 </section>
 <section class="faq-section">
-<h2>Frequently Asked Questions - Helena AL</h2>
-<div class="faq-item"><div class="faq-question" onclick="toggleFAQ(this)">Do I need flood insurance in Helena, AL?<span class="faq-toggle">+</span></div><div class="faq-answer"><p>It depends on your location. Alabama's clay soil and frequent heavy rains create flood risks even outside designated flood zones. Properties near Buck Creek should strongly consider coverage. Standard homeowners policies exclude flood damage.</p></div></div>
-<div class="faq-item"><div class="faq-question" onclick="toggleFAQ(this)">What factors affect my insurance rates in Helena?<span class="faq-toggle">+</span></div><div class="faq-answer"><ul style="margin-left:20px;"><li>Claims history &amp; credit</li><li>Distance from volunteer fire departments (common in Alabama)</li><li>Tornado risk rating for your area</li><li>Proximity to major roads</li></ul></div></div>
+    <h2>Frequently Asked Questions - Helena AL</h2>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+            Do I need flood insurance in Helena, AL?
+            <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+            <p>Properties near Buck Creek or in low-lying areas face increased flood risk. Helena's rolling terrain can create flash flooding during heavy rains. Standard homeowners policies don't cover flood damage, so separate flood insurance is recommended for at-risk properties.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+            What factors affect my insurance rates in Helena?
+            <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+            <ul style="margin-left:20px;">
+                <li>Claims history & credit</li>
+                <li>Proximity to Buck Creek</li>
+                <li>Growing traffic on County Road 52 and Highway 261</li>
+                <li>Distance from fire stations</li>
+            </ul>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+            How much can bundling save me?
+            <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+            <p>Most Helena families save 20-25% when bundling auto and home coverage. Your exact savings depends on your coverage needs and driving history.</p>
+        </div>
     </div>
 </section>
-<footer class="footer-cta">
-<h2>Ready to save?</h2>
-<p>Contact us today for your free quote.</p>
-<a class="btn btn-primary" href="#quote-form" style="background:white;color:var(--allstate-blue);">Request Callback</a>
+<footer>
+    <p>Coffey Agencies Inc. is an authorized, independently owned insurance agency. This site is operated by Coffey Agencies Inc., not by any insurance carrier.</p>
+    <p>Coffey Agencies Inc.—GA License #149612, AL License #416438.</p>
+    <p>&copy; 2025 Coffey Agencies. All rights reserved. | <a href="https://coffeyagencies.com/privacy-policy-page.html">Privacy Policy</a> | <a href="https://coffeyagencies.com/terms-of-service-page.html">Terms of Service</a></p>
+    <p style="margin-top: 10px;">
+        <a href="https://coffeyagencies.com">Part of Coffey Agencies - Visit Main Site</a>
+    </p>
 </footer>
-<!-- FAQ toggle -->
 <script>
-function toggleFAQ(element){
-    var item = element.parentElement;
-    if(item.classList.contains('active')){
-        item.classList.remove('active');
-    } else {
-        item.classList.add('active');
+function toggleFAQ(element) {
+    element.parentElement.classList.toggle('active');
+}
+
+// Cookie Banner functionality
+function checkCookieConsent() {
+    if (!localStorage.getItem('cookieConsent')) {
+        document.getElementById('cookie-banner').style.display = 'block';
     }
 }
+
+function acceptCookies() {
+    localStorage.setItem('cookieConsent', 'accepted');
+    localStorage.setItem('cookieConsentDate', new Date().toISOString());
+    document.getElementById('cookie-banner').style.display = 'none';
+}
+
+// Check cookie consent on page load
+window.addEventListener('DOMContentLoaded', checkCookieConsent);
 </script>
-<!-- Cookie Consent Banner -->
-<div id="cookie-banner" style="position: fixed; bottom: 0; width: 100%; background: #2c3e50; color: white; padding: 1rem; display: none; z-index: 9999;">
-<div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
-<p style="margin: 0; flex: 1;">We use cookies to improve your experience. By continuing, you accept our use of analytics cookies.</p>
-<button onclick="acceptCookies()" style="background: #1e4788; color: white; border: none; padding: 0.5rem 1rem; cursor: pointer; border-radius: 4px;">Accept</button>
-</div>
-</div>
 </body>
 </html>
