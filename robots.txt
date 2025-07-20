@@ -1,6 +1,6 @@
 # Robots.txt for operator.coffeyagencies.com
-# Last updated: 2025-01-02
-# Fixed: Removed blocking of form parameters to allow city pages with ?form= to be indexed
+# Last updated: 2025-01-20
+# Added: Support for new Georgia city pages with -insurance.html pattern
 
 # Default crawler rules
 User-agent: *
@@ -21,6 +21,9 @@ Disallow: /*.log$
 Allow: /*-al.html?form=*
 Allow: /*-ga.html?form=*
 Allow: /*.html?form=*
+
+# Allow new Georgia insurance pages
+Allow: /*-ga-insurance.html
 
 # Block tracking parameters (but not form parameters)
 Disallow: /*?utm_*
