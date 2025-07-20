@@ -10,7 +10,7 @@
 /suwanee-trap-page.html /suwanee-ga.html 301
 /woodstock-page.html /woodstock-ga.html 301
 
-# New redirects for main site ZIP finder
+# New redirects for main site ZIP finder (existing cities)
 /rome-georgia-insurance/ /rome-ga.html 301
 /alpharetta-georgia-insurance/ /alpharetta-ga.html 301
 /suwanee-georgia-insurance/ /suwanee-ga.html 301
@@ -21,3 +21,12 @@
 /helena-alabama-insurance/ /helena-al.html 301
 /hoover-alabama-insurance/ /hoover-al.html 301
 /owens-cross-roads-alabama-insurance/ /owens-cross-roads-al.html 301
+
+# New redirects for new city pages
+/atlanta-georgia-insurance/ /atlanta-ga-insurance.html 301
+/duluth-georgia-insurance/ /duluth-ga-insurance.html 301
+/lawrenceville-georgia-insurance/ /lawrenceville-ga-insurance.html 301
+/cumming-georgia-insurance/ /cumming-ga-insurance.html 301
+/hampton-georgia-insurance/ /hampton-ga-insurance.html 301
+/buford-georgia-insurance/ /buford-ga-insurance.html 301
+/huntsville-alabama-insurance/ /huntsville-al.html 301
