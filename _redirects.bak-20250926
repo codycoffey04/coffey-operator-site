@@ -1,0 +1,32 @@
+# Existing redirects (keep these)
+/rome-complete-trap-page.html /rome-ga.html 301
+/alpharetta-trap-page.html /alpharetta-ga.html 301
+/helena-trap-page.html /helena-al.html 301
+/hoover-trap-page.html /hoover-al.html 301
+/madison-trap-page.html /madison-al.html 301
+/mountain-brook-trap-page.html /mountain-brook-al.html 301
+/owens-cross-roads-page (1).html /owens-cross-roads-al.html 301
+/peachtree-city-page.html /peachtree-city-ga.html 301
+/suwanee-trap-page.html /suwanee-ga.html 301
+/woodstock-page.html /woodstock-ga.html 301
+
+# New redirects for main site ZIP finder (existing cities)
+/rome-georgia-insurance/ /rome-ga.html 301
+/alpharetta-georgia-insurance/ /alpharetta-ga.html 301
+/suwanee-georgia-insurance/ /suwanee-ga.html 301
+/woodstock-georgia-insurance/ /woodstock-ga.html 301
+/peachtree-city-georgia-insurance/ /peachtree-city-ga.html 301
+/mountain-brook-alabama-insurance/ /mountain-brook-al.html 301
+/madison-alabama-insurance/ /madison-al.html 301
+/helena-alabama-insurance/ /helena-al.html 301
+/hoover-alabama-insurance/ /hoover-al.html 301
+/owens-cross-roads-alabama-insurance/ /owens-cross-roads-al.html 301
+
+# New redirects for new city pages
+/atlanta-georgia-insurance/ /atlanta-ga-insurance.html 301
+/duluth-georgia-insurance/ /duluth-ga-insurance.html 301
+/lawrenceville-georgia-insurance/ /lawrenceville-ga-insurance.html 301
+/cumming-georgia-insurance/ /cumming-ga-insurance.html 301
+/hampton-georgia-insurance/ /hampton-ga-insurance.html 301
+/buford-georgia-insurance/ /buford-ga-insurance.html 301
+/huntsville-alabama-insurance/ /huntsville-al.html 301
