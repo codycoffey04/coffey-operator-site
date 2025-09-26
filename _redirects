@@ -1,55 +1,55 @@
 # ---- Forced page-level mappings ----
 
-# Alpharetta → 30004
+# Alpharetta -> 30004
 /alpharetta-ga                 https://coffeyagencies.com/insurance/alpharetta-ga-30004/ 301!
 /alpharetta-ga/                https://coffeyagencies.com/insurance/alpharetta-ga-30004/ 301!
 /alpharetta-ga.html            https://coffeyagencies.com/insurance/alpharetta-ga-30004/ 301!
 /alpharetta-ga*                https://coffeyagencies.com/insurance/alpharetta-ga-30004/ 301!
 
-# Atlanta → 30349
+# Atlanta -> 30349
 /atlanta-ga                    https://coffeyagencies.com/insurance/atlanta-ga-30349/    301!
 /atlanta-ga/                   https://coffeyagencies.com/insurance/atlanta-ga-30349/    301!
 /atlanta-ga.html               https://coffeyagencies.com/insurance/atlanta-ga-30349/    301!
 /atlanta-ga*                   https://coffeyagencies.com/insurance/atlanta-ga-30349/    301!
 
-# Cumming (operator) → Forsyth 30040 (primary)
+# Cumming (operator) -> Forsyth 30040 (primary)
 /cumming-ga                    https://coffeyagencies.com/insurance/forsyth-ga-30040/    301!
 /cumming-ga/                   https://coffeyagencies.com/insurance/forsyth-ga-30040/    301!
 /cumming-ga.html               https://coffeyagencies.com/insurance/forsyth-ga-30040/    301!
 /cumming-ga-insurance.html     https://coffeyagencies.com/insurance/forsyth-ga-30040/    301!
 /cumming-ga*                   https://coffeyagencies.com/insurance/forsyth-ga-30040/    301!
 
-# Duluth → 30095
+# Duluth -> 30095
 /duluth-ga                     https://coffeyagencies.com/insurance/duluth-ga-30095/     301!
 /duluth-ga/                    https://coffeyagencies.com/insurance/duluth-ga-30095/     301!
 /duluth-ga.html                https://coffeyagencies.com/insurance/duluth-ga-30095/     301!
 /duluth-ga-insurance.html      https://coffeyagencies.com/insurance/duluth-ga-30095/     301!
 /duluth-ga*                    https://coffeyagencies.com/insurance/duluth-ga-30095/     301!
 
-# Dothan generic → 36301 (preference)
+# Dothan generic -> 36301 (preference)
 /dothan-al                     https://coffeyagencies.com/insurance/dothan-al-36301/     301!
 /dothan-al/                    https://coffeyagencies.com/insurance/dothan-al-36301/     301!
 /dothan-al.html                https://coffeyagencies.com/insurance/dothan-al-36301/     301!
 /dothan-al*                    https://coffeyagencies.com/insurance/dothan-al-36301/     301!
 
-# Dothan specific 36303 (correct to 36303, not 36301)
+# Dothan specific 36303
 /dothan-al-36303               https://coffeyagencies.com/insurance/dothan-al-36303/     301!
 /dothan-al-36303.html          https://coffeyagencies.com/insurance/dothan-al-36303/     301!
 
-# Lawrenceville → 30043 (preference)
+# Lawrenceville -> 30043 (preference)
 /lawrenceville-ga              https://coffeyagencies.com/insurance/lawrenceville-ga-30043/ 301!
 /lawrenceville-ga/             https://coffeyagencies.com/insurance/lawrenceville-ga-30043/ 301!
 /lawrenceville-ga.html         https://coffeyagencies.com/insurance/lawrenceville-ga-30043/ 301!
 /lawrenceville-ga-insurance.html https://coffeyagencies.com/insurance/lawrenceville-ga-30043/ 301!
 /lawrenceville-ga*             https://coffeyagencies.com/insurance/lawrenceville-ga-30043/ 301!
 
-# Rome → 30161
+# Rome -> 30161
 /rome-ga                       https://coffeyagencies.com/insurance/rome-ga-30161/       301!
 /rome-ga/                      https://coffeyagencies.com/insurance/rome-ga-30161/       301!
 /rome-ga.html                  https://coffeyagencies.com/insurance/rome-ga-30161/       301!
 /rome-ga*                      https://coffeyagencies.com/insurance/rome-ga-30161/       301!
 
-# Suwanee → 30024
+# Suwanee -> 30024
 /suwanee-ga                    https://coffeyagencies.com/insurance/suwanee-ga-30024/    301!
 /suwanee-ga/                   https://coffeyagencies.com/insurance/suwanee-ga-30024/    301!
 /suwanee-ga.html               https://coffeyagencies.com/insurance/suwanee-ga-30024/    301!
