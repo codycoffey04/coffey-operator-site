@@ -1,59 +1,81 @@
-# ---- Forced page-level mappings ----
+# ---- City Page Redirects (Operator → Main Site) ----
+# Updated: 2025-01-XX
+# Format: operator.coffeyagencies.com/page → coffeyagencies.com/city-slug
 
-# Alpharetta -> 30004
-/alpharetta-ga                 https://coffeyagencies.com/insurance/alpharetta-ga-30004/ 301!
-/alpharetta-ga/                https://coffeyagencies.com/insurance/alpharetta-ga-30004/ 301!
-/alpharetta-ga.html            https://coffeyagencies.com/insurance/alpharetta-ga-30004/ 301!
-/alpharetta-ga*                https://coffeyagencies.com/insurance/alpharetta-ga-30004/ 301!
+# Georgia Cities with Main Site Equivalents
+/alpharetta-ga.html              https://coffeyagencies.com/alpharetta-ga              301!
+/alpharetta-ga                   https://coffeyagencies.com/alpharetta-ga              301!
+/alpharetta-ga/                  https://coffeyagencies.com/alpharetta-ga              301!
 
-# Atlanta -> 30349
-/atlanta-ga                    https://coffeyagencies.com/insurance/atlanta-ga-30349/    301!
-/atlanta-ga/                   https://coffeyagencies.com/insurance/atlanta-ga-30349/    301!
-/atlanta-ga.html               https://coffeyagencies.com/insurance/atlanta-ga-30349/    301!
-/atlanta-ga*                   https://coffeyagencies.com/insurance/atlanta-ga-30349/    301!
+/atlanta-ga-insurance.html       https://coffeyagencies.com/atlanta-ga                  301!
+/atlanta-ga-insurance            https://coffeyagencies.com/atlanta-ga                  301!
+/atlanta-ga-insurance/           https://coffeyagencies.com/atlanta-ga                  301!
 
-# Cumming (operator) -> Forsyth 30040 (primary)
-/cumming-ga                    https://coffeyagencies.com/insurance/forsyth-ga-30040/    301!
-/cumming-ga/                   https://coffeyagencies.com/insurance/forsyth-ga-30040/    301!
-/cumming-ga.html               https://coffeyagencies.com/insurance/forsyth-ga-30040/    301!
-/cumming-ga-insurance.html     https://coffeyagencies.com/insurance/forsyth-ga-30040/    301!
-/cumming-ga*                   https://coffeyagencies.com/insurance/forsyth-ga-30040/    301!
+/cumming-ga-insurance.html       https://coffeyagencies.com/cumming-ga                  301!
+/cumming-ga-insurance            https://coffeyagencies.com/cumming-ga                  301!
+/cumming-ga-insurance/           https://coffeyagencies.com/cumming-ga                  301!
 
-# Duluth -> 30095
-/duluth-ga                     https://coffeyagencies.com/insurance/duluth-ga-30095/     301!
-/duluth-ga/                    https://coffeyagencies.com/insurance/duluth-ga-30095/     301!
-/duluth-ga.html                https://coffeyagencies.com/insurance/duluth-ga-30095/     301!
-/duluth-ga-insurance.html      https://coffeyagencies.com/insurance/duluth-ga-30095/     301!
-/duluth-ga*                    https://coffeyagencies.com/insurance/duluth-ga-30095/     301!
+/dulth-ga-insurance.html         https://coffeyagencies.com/duluth-ga                   301!
+/dulth-ga-insurance              https://coffeyagencies.com/duluth-ga                   301!
+/dulth-ga-insurance/             https://coffeyagencies.com/duluth-ga                   301!
 
-# Dothan generic -> 36301 (preference)
-/dothan-al                     https://coffeyagencies.com/insurance/dothan-al-36301/     301!
-/dothan-al/                    https://coffeyagencies.com/insurance/dothan-al-36301/     301!
-/dothan-al.html                https://coffeyagencies.com/insurance/dothan-al-36301/     301!
-/dothan-al*                    https://coffeyagencies.com/insurance/dothan-al-36301/     301!
+/lawrenceville-ga-insurance.html https://coffeyagencies.com/lawrenceville-ga            301!
+/lawrenceville-ga-insurance      https://coffeyagencies.com/lawrenceville-ga            301!
+/lawrenceville-ga-insurance/     https://coffeyagencies.com/lawrenceville-ga            301!
 
-# Dothan specific 36303
-/dothan-al-36303               https://coffeyagencies.com/insurance/dothan-al-36303/     301!
-/dothan-al-36303.html          https://coffeyagencies.com/insurance/dothan-al-36303/     301!
+/rome-ga.html                    https://coffeyagencies.com/rome-ga                    301!
+/rome-ga                         https://coffeyagencies.com/rome-ga                    301!
+/rome-ga/                        https://coffeyagencies.com/rome-ga                    301!
 
-# Lawrenceville -> 30043 (preference)
-/lawrenceville-ga              https://coffeyagencies.com/insurance/lawrenceville-ga-30043/ 301!
-/lawrenceville-ga/             https://coffeyagencies.com/insurance/lawrenceville-ga-30043/ 301!
-/lawrenceville-ga.html         https://coffeyagencies.com/insurance/lawrenceville-ga-30043/ 301!
-/lawrenceville-ga-insurance.html https://coffeyagencies.com/insurance/lawrenceville-ga-30043/ 301!
-/lawrenceville-ga*             https://coffeyagencies.com/insurance/lawrenceville-ga-30043/ 301!
+/suwanee-ga.html                 https://coffeyagencies.com/suwanee-ga                  301!
+/suwanee-ga                      https://coffeyagencies.com/suwanee-ga                  301!
+/suwanee-ga/                     https://coffeyagencies.com/suwanee-ga                  301!
 
-# Rome -> 30161
-/rome-ga                       https://coffeyagencies.com/insurance/rome-ga-30161/       301!
-/rome-ga/                      https://coffeyagencies.com/insurance/rome-ga-30161/       301!
-/rome-ga.html                  https://coffeyagencies.com/insurance/rome-ga-30161/       301!
-/rome-ga*                      https://coffeyagencies.com/insurance/rome-ga-30161/       301!
+# Alabama Cities with Main Site Equivalents
+/huntsville-al.html              https://coffeyagencies.com/huntsville-al               301!
+/huntsville-al                   https://coffeyagencies.com/huntsville-al               301!
+/huntsville-al/                  https://coffeyagencies.com/huntsville-al               301!
 
-# Suwanee -> 30024
-/suwanee-ga                    https://coffeyagencies.com/insurance/suwanee-ga-30024/    301!
-/suwanee-ga/                   https://coffeyagencies.com/insurance/suwanee-ga-30024/    301!
-/suwanee-ga.html               https://coffeyagencies.com/insurance/suwanee-ga-30024/    301!
-/suwanee-ga*                   https://coffeyagencies.com/insurance/suwanee-ga-30024/    301!
+# ---- Orphaned Pages - Redirecting to Nearest City ----
 
-# ---- Forced catch-all for everything else ----
-/*                             https://coffeyagencies.com/                               301!
+# Georgia Orphans
+/buford-ga-insurance.html        https://coffeyagencies.com/suwanee-ga                  301!
+/buford-ga-insurance             https://coffeyagencies.com/suwanee-ga                  301!
+/buford-ga-insurance/           https://coffeyagencies.com/suwanee-ga                  301!
+
+/hampton-ga-insurance.html       https://coffeyagencies.com/atlanta-ga                  301!
+/hampton-ga-insurance            https://coffeyagencies.com/atlanta-ga                  301!
+/hampton-ga-insurance/           https://coffeyagencies.com/atlanta-ga                  301!
+
+/peachtree-city-ga.html         https://coffeyagencies.com/atlanta-ga                  301!
+/peachtree-city-ga              https://coffeyagencies.com/atlanta-ga                  301!
+/peachtree-city-ga/             https://coffeyagencies.com/atlanta-ga                  301!
+
+/woodstock-ga.html              https://coffeyagencies.com/canton-ga                   301!
+/woodstock-ga                   https://coffeyagencies.com/canton-ga                   301!
+/woodstock-ga/                  https://coffeyagencies.com/canton-ga                   301!
+
+# Alabama Orphans
+/hoover-al.html                 https://coffeyagencies.com/trussville-al                301!
+/hoover-al                      https://coffeyagencies.com/trussville-al                301!
+/hoover-al/                     https://coffeyagencies.com/trussville-al                301!
+
+/madison-al.html                https://coffeyagencies.com/huntsville-al                301!
+/madison-al                     https://coffeyagencies.com/huntsville-al                301!
+/madison-al/                    https://coffeyagencies.com/huntsville-al                301!
+
+# HIGH PRIORITY - Temporary until new pages created
+/helena-al.html                 https://coffeyagencies.com/trussville-al                301!
+/helena-al                      https://coffeyagencies.com/trussville-al                301!
+/helena-al/                     https://coffeyagencies.com/trussville-al                301!
+
+/mountain-brook-al.html         https://coffeyagencies.com/trussville-al                301!
+/mountain-brook-al              https://coffeyagencies.com/trussville-al                301!
+/mountain-brook-al/             https://coffeyagencies.com/trussville-al                301!
+
+/owens-cross-roads-al.html      https://coffeyagencies.com/huntsville-al                301!
+/owens-cross-roads-al           https://coffeyagencies.com/huntsville-al                301!
+/owens-cross-roads-al/          https://coffeyagencies.com/huntsville-al                301!
+
+# ---- Catch-all for everything else (homepage) ----
+/*                               https://coffeyagencies.com/                             301!
