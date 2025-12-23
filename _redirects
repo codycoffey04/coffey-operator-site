@@ -36,6 +36,14 @@
 /huntsville-al                   https://coffeyagencies.com/huntsville-al               301!
 /huntsville-al/                  https://coffeyagencies.com/huntsville-al               301!
 
+/mountain-brook-al.html         https://coffeyagencies.com/mountain-brook-al           301!
+/mountain-brook-al              https://coffeyagencies.com/mountain-brook-al           301!
+/mountain-brook-al/             https://coffeyagencies.com/mountain-brook-al           301!
+
+/owens-cross-roads-al.html      https://coffeyagencies.com/owens-cross-roads-al        301!
+/owens-cross-roads-al           https://coffeyagencies.com/owens-cross-roads-al        301!
+/owens-cross-roads-al/          https://coffeyagencies.com/owens-cross-roads-al        301!
+
 # ---- Orphaned Pages - Redirecting to Nearest City ----
 
 # Georgia Orphans
@@ -68,14 +76,6 @@
 /helena-al.html                 https://coffeyagencies.com/helena-al                     301!
 /helena-al                      https://coffeyagencies.com/helena-al                     301!
 /helena-al/                     https://coffeyagencies.com/helena-al                     301!
-
-/mountain-brook-al.html         https://coffeyagencies.com/trussville-al                301!
-/mountain-brook-al              https://coffeyagencies.com/trussville-al                301!
-/mountain-brook-al/             https://coffeyagencies.com/trussville-al                301!
-
-/owens-cross-roads-al.html      https://coffeyagencies.com/huntsville-al                301!
-/owens-cross-roads-al           https://coffeyagencies.com/huntsville-al                301!
-/owens-cross-roads-al/          https://coffeyagencies.com/huntsville-al                301!
 
 # ---- Catch-all for everything else (homepage) ----
 /*                               https://coffeyagencies.com/                             301!
